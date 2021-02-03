@@ -24,6 +24,7 @@ namespace enums
                 case DayOfWeek.Sunday:
                     break;
                 case DayOfWeek.Monday:
+                    Console.WriteLine(eventName);
                     Console.WriteLine((int)dayOfWeek); // 1
                     Console.WriteLine((int)weekDay); // 10 (se ovan)
                     break;
