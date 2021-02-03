@@ -16,7 +16,7 @@ namespace Zoo
             Console.WriteLine("Woff!");
         }
 
-        public override void Eat(Animal food)
+        public override void Eat(IEdible food)
         {
             Weight += food.Weight * 0.8;
         }

@@ -5,7 +5,7 @@ using System.Text;
 namespace Zoo
 {
     // Abstract classes can not be instantiated, they are only to be inherited from
-    abstract class Animal
+    abstract class Animal : IEdible
     {
         public double Weight { get; set; }
         public Animal(double weight)
@@ -14,7 +14,7 @@ namespace Zoo
             MakeSound();
         }
 
-        public virtual void Eat(Animal food)
+        public virtual void Eat(IEdible food)
         {
             this.Weight += food.Weight;
         }

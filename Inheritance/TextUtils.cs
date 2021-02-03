@@ -12,7 +12,7 @@ namespace Zoo
             foreach (char c in text)
             {
                 Console.Write(c);
-                Thread.Sleep(250);
+                Thread.Sleep(100);
             }
             Console.WriteLine();
         }
