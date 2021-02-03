@@ -17,7 +17,7 @@ namespace Zoo
             {
                 
                 Console.WriteLine(animal);
-                Dog lunch = new Dog(1);
+                Grass lunch = new Grass();
                 animal.Eat(lunch);
                 Console.WriteLine("------LUNCH------");
                 Console.WriteLine(animal);

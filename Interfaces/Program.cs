@@ -6,7 +6,7 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
